@@ -452,9 +452,6 @@
     font-family: "Inter", sans-serif;
     font-size: 80%;
 }
-.col{
-    margin-right: 2%;
-}
 .box2{
     display: flex;
     justify-content: space-between;
@@ -483,8 +480,10 @@
 .align_box{
     width: 16%;
 }
-.row{
+.row {
     display: flex;
+    width: 62%;
+    justify-content: space-between;
 }
 @media(max-width: 1130px){
     .conteiner21{
