@@ -831,4 +831,8 @@
     .button_block{
         margin-inline: 18%;
     }
+    .box2{
+        justify-content: space-around;
+        width: 100%;
+    }
 }
