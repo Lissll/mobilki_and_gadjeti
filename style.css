@@ -862,4 +862,12 @@
     .text1 {
         font-size: 146%;
     }
+    .email_box {
+        font-size: 79%;
+        margin-inline: 15%;
+    }
+    .button_block {
+        margin-inline: 14%;
+        font-size: 55%;
+    }
 }
