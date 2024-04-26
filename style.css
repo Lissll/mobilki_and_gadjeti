@@ -340,7 +340,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 141%;
     display: flex;
-    margin-left: 46%;
+    justify-content: center;
 }
 .search_block{
     display: flex;
@@ -869,5 +869,11 @@
     .button_block {
         margin-inline: 14%;
         font-size: 55%;
+    }
+    .txt1 {
+        font-size: 56%;
+    }
+    .txt2 {
+        font-size: 70%;
     }
 }
