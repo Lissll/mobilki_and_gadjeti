@@ -832,7 +832,29 @@
         margin-inline: 18%;
     }
     .box2{
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .heading{
+        padding-top: 4%;
+        padding-buttom: 2%;
+    }
+    .text{
+        padding: 1%;
+    }
+    .box_made {
+        width: 53%;
+    }
+    .text_link2 {
+        font-size: 82%;
+    }
+    .text_link1 {
+        font-size: 82=5%;
     }
 }
