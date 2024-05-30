@@ -1,3 +1,49 @@
+body{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.dark-mode{
+    .conteiner1{
+        background-color: #4a4a4e79;
+        border-radius: 32px;
+    }
+    .conteiner2{
+        background-color: #4a4a4e79;
+    }
+    .block21 {
+        box-shadow: 0px 4px 35px 0px #ffffff40;
+    }
+    .block22{
+        box-shadow: 0px 4px 35px 0px #ffffff40;
+    }
+    .block3{
+        box-shadow: 0px 4px 35px 0px #ffffff40;
+    }
+    .block4{
+        box-shadow: 0px 4px 35px 0px #ffffff40;
+    }
+    .conteiner9{
+        background-color: #4a4a4e79;
+        color: #FFFFFF;
+    }
+    .buttom2 {
+        border: 1px solid #ffffff;
+    }
+    .search_block{
+        background-color: black;
+    }
+    .email_block{
+        background-color: #4a4a4e79;
+    }
+    .element{
+        background-color: #4a4a4e79;
+    }
+    .buttom3{
+            border: 1px solid #ffffff;
+    }
+    color: #FFFFFF;
+    background-color: #000000;
+}
 .conteiner1{
     font-family: "Inter", sans-serif;
     display: flex;
@@ -12,17 +58,55 @@
 .conteiner11{
     display: flex;
     justify-content: space-between;
-    width: 36%;
+    width: 47%;
+    padding-inline: 13%;
+    font-size: 120%;
 }
 .conteiner12{
     display: flex;
     justify-content: space-evenly;
     width: 7%;
+    padding: 0.2%;
+}
+.block_icon{
+    display: flex;
+    font-size: 121%;
+    width: 9%;
+}
+.icon{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 1%;
+    margin: 2%;
+    padding-inline: 9%;
+    margin-inline: 5%;
+    width: 5%;
+}
+.moon{
+    width: 311%;
+    padding-top: 50%;
+    margin-left: -79%;
+}
+.A{
+    display: flex;
+    justify-content: space-around;
+    width: 66%;
+}
+.plus{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin: 3%;
+    padding: 1%;
+}
+.minus{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding-right: 7.5%;
+    margin: 3%;
 }
 .conteiner2{
     background-color: #DCE5E2;
     border-radius: 32px;
-    color: #000000;
     display: flex;  
     margin: 3%;
 }
@@ -82,7 +166,6 @@
     margin-top: 8%;
     margin-right: 3%;
     margin-left: 3%;
-    color:#000000;
 }
 .block1{
     font-family: "Readex Pro", sans-serif;
