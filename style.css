@@ -973,3 +973,6 @@ body{
         width: 35%;
     }
 }
+.block1{
+    opacity: 0; 
+}
