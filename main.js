@@ -7,8 +7,6 @@ button1.addEventListener('click', function darkmode(){
 });
 document.addEventListener('DOMContentLoaded', function onload(){
     document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode')==true);
-    const wasDark = localStorage.getItem('darkmode') === 'true';
-    body.classList.toggle('dark-mode', wasDark);
 });
 
 });
