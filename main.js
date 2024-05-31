@@ -21,7 +21,11 @@ button3.addEventListener('click', function minus(){
   body.style.fontSize = fontSize + 'px';
 });
 localStorage.setItem('fontSize', fontSize);
-
+const block1 = document.querySelector('.block1');
+let block1Visible = false;
+window.addEventListener('scroll', function text(){
+    block1.style.opacity=1;
+});
 
 
  
