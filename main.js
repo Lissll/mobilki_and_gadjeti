@@ -1,12 +1,16 @@
 const body=document.body;
 let button1=document.querySelector(".icon");
 button1.addEventListener('click', function darkmode(){
-    const wasDark=localStorage.getItem('darkmode')=='true';
+    const wasDark=localStorage.getItem('darkmode')==='true';
     localStorage.setItem('darkmode', !wasDark);
     body.classList.toggle('dark-mode', !wasDark);
 });
 document.addEventListener('DOMContentLoaded', function onload(){
     document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode')==true);
+    const wasDark = localStorage.getItem('darkmode') === 'true';
+    body.classList.toggle('dark-mode', wasDark);
+});
+
 });
 
 let button2=document.querySelector('.plus');
