@@ -593,6 +593,13 @@ body{
     .item1{
         font-size: 316%;
     }
+    .conteiner12 {
+        height: 36%;
+    }
+    .block_icon {
+        height: 36%;
+    }
+        
 }
 @media(max-width: 984px){
     .conteiner11{
