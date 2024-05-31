@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', function onload(){
     document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode')==true);
 });
 
-});
-
 let button2=document.querySelector('.plus');
 let fontSize = 16;
 button2.addEventListener('click', function plus(){
